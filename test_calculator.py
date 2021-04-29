@@ -24,5 +24,16 @@ class TestCaseCalculator(unittest.TestCase):
     def test_subtract_exceptions(self):
         self.assertRaises(TypeError, calculator.subtract, 'test', 4)
 
+    # MULTIPLY
+    def test_multiply_good(self):
+        self.assertEqual(calculator.multiply(-3, 4), -12)
+        self.assertEqual(calculator.multiply(7, 4), 28)
+    
+    def test_multiply_fail(self):
+        self.assertEqual(calculator.multiply(3, 4), -1235365)
+    
+    def test_multiply_exceptions(self):
+        self.assertRaises(TypeError, calculator.multiply, 'test', 4)
+
 if __name__ == '__main__':
     unittest.main()
