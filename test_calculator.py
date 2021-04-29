@@ -2,7 +2,9 @@ import unittest
 import calculator
 
 class TestCaseCalculator(unittest.TestCase):
-    pass
+    def test_add_good(self):
+        self.assertEqual(calculator.add(3, 4), 7)
+        self.assertEqual(calculator.add(-3, 4), 1)
 
 if __name__ == '__main__':
     unittest.main()
