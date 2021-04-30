@@ -6,4 +6,4 @@
 
 2. Calculator App tests with the pytest testing framework
    - [Calculator App Tests (pytest)](test_calculator_pytest.py)
-   - [Explanation](CS 362 In Class Activity 3.pdf)
+   - [Explanation](CS%20362%20In%20Class%20Activity%203.pdf)
